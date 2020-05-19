@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/style.css">
+  <title>Modulo04 - Projeto</title>
+</head>
+<body>
+
+  <main>
+
+      <h1>Insira o endereço de um repositório:</h1>
+  
+      <form id="repo-form">
+        <input type="text" name="repository">
+        <button type="submit">Adicionar</button>
+      </form>
+    
+      <ul id="repo-list" class="hide"></ul>
+  
+  </main>
+
+
+
+  <!-- O webpack faz a inclusão do arquivo bundle.js automatico, elenão gera um arquivo dentro da pasta. -->
+  <script src="./bundle.js"></script>
+  <script src="./custom.js"></script>
+</body>
+</html>

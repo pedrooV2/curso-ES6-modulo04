@@ -1,0 +1,9 @@
+//O babel é responsável por transformar as nossas features que utilizam ES6+,
+//ES7+, ES8+, em uma forma que todos os navegadores entendam.
+{
+  "presets": ["@babel/preset-env"],
+  "plugins": [
+    "@babel/plugin-proposal-object-rest-spread",
+    "@babel/plugin-transform-async-to-generator"
+  ] 
+}

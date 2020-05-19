@@ -1,0 +1,82 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+body{
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+
+  font-family: 'Roboto', sans-serif;
+
+  background-color: #ecf0f1;
+}
+
+main {
+  margin: 0 auto;
+  padding: 60px 0;
+  width: 90%;
+  max-width: 1000px;
+}
+
+h1 {
+  font-weight: 900;
+}
+
+
+form .repo-form, input {
+  width: 60%;
+  margin: 20px 0;
+  padding: 15px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+form .repo-form, button {
+  width: auto;
+  padding: 15px 35px;
+  text-align: center;
+  background-color: #ff4f4f;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  outline: none;
+}
+
+
+ul {
+  list-style: none;
+  margin: 20px 0;
+  font-family: sans-serif;
+  padding: 20px 60px;
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+li {
+  clear: both;
+  margin: 40px 0;
+}
+
+img {
+  width: 80px;
+  float: left;
+  margin-right: 20px;
+}
+
+strong {
+  font-size: 20px;
+}
+
+p {
+  margin: 5px 0;
+}
+
+.hide {
+  display: none;
+}
