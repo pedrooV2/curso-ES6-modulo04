@@ -1,6 +1,6 @@
 
-# Curso-ES6-modulo02
-Aplicação das novas tecnologias da linguagem JavaScript a partir da versão ES6+.
+# Curso-ES6-modulo04
+Projeto que busca repositórios do Github
 
 
 ## Requisitos:
@@ -14,12 +14,12 @@ Aplicação das novas tecnologias da linguagem JavaScript a partir da versão ES
 
 ### Instalando dependências
 <ul>
-  <li>Dentro da pasta modulo02, execute o comando no terminal:</li>
+  <li>No terminal execute o comando:
   
 ```
 yarn
 ```
-</ul>
+Obs: Certifique-se de executar esse comando no diretório da pasta com os arquivos.</li></ul>
 
 ### Configurando o webpack-dev-server
 
@@ -36,9 +36,6 @@ http://localhost:8080
 ```
 </ul>
 
-### Desafios
-<ul>
-  <li>Para visualizar os desafios abra as ferramentas do desenvolvedor, na aba console.</li>
-</ul>
+
 
 
