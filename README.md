@@ -2,6 +2,11 @@
 # Curso-ES6-modulo04
 Projeto que busca repositórios do Github
 
+## Resultado:
+
+<p align="center">
+  <img src="./.github/github-api-access.png"/>
+</p>
 
 ## Requisitos:
 
